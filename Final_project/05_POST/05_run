@@ -1,0 +1,6 @@
+vcs -f rtl.f -full64 -R -debug_access+all +v2k +maxdelays -negdelay +neg_tchk +define+SDF+p1 | tee post_p1.log
+vcs -f rtl.f -full64 -R -debug_access+all +v2k +maxdelays -negdelay +neg_tchk +define+SDF+p2 | tee post_p2.log
+vcs -f rtl.f -full64 -R -debug_access+all +v2k +maxdelays -negdelay +neg_tchk +define+SDF+p3 | tee post_p3.log
+vcs -f rtl.f -full64 -R -debug_access+all +v2k +maxdelays -negdelay +neg_tchk +define+SDF+p4 | tee post_p4.log
+vcs -f rtl.f -full64 -R -debug_access+all +v2k +maxdelays -negdelay +neg_tchk +define+SDF+p5 | tee post_p5.log
+vcs -f rtl.f -full64 -R -debug_access+all +v2k +maxdelays -negdelay +neg_tchk +define+SDF+p6 | tee post_p6.log

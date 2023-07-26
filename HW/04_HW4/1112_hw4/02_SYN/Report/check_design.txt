@@ -1,0 +1,25 @@
+ 
+****************************************
+check_design summary:
+Version:     U-2022.12
+Date:        Mon May  8 11:06:26 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                              11
+    Cells do not drive (LINT-1)                                    11
+--------------------------------------------------------------------------------
+
+Warning: In design 'IOTDF', cell 'C17974' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C17986' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C18084' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C18094' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C18105' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C18120' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C18133' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C18140' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C18149' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C18161' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C18176' does not drive any nets. (LINT-1)
+1

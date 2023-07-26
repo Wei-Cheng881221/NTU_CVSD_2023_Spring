@@ -1,0 +1,58 @@
+****************************************
+Report : Time Based Power
+	-verbose
+Design : ml_demodulator
+Version: T-2022.03
+Date   : Mon Jun  5 23:37:57 2023
+****************************************
+
+Sampling Interval: 0.001 ns
+
+Library(s) Used:
+
+    slow (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/orig_lib/aci/sc-x/synopsys/slow.db)
+
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+<no wire load model is set>
+
+Power-specific unit information :
+    Voltage Units = 1 V
+    Capacitance Units = 1 pf
+    Time Units = 1 ns
+    Dynamic Power Units = 1 W
+    Leakage Power Units = 1 W
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           1.162e-03 1.384e-04 9.054e-07 1.301e-03 (44.81%)  i
+register                2.174e-04 2.787e-05 4.747e-05 2.928e-04 (10.09%)  
+combinational           9.195e-04 2.960e-04 9.395e-05 1.309e-03 (45.11%)  
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 4.623e-04   (15.92%)
+  Cell Internal Power  = 2.299e-03   (79.17%)
+  Cell Leakage Power   = 1.423e-04   ( 4.90%)
+                         ---------
+Total Power            = 2.903e-03  (100.00%)
+
+X Transition Power     = 3.052e-08
+Glitching Power        = 1.267e-06
+
+Peak Power             =    0.1545
+Peak Time              = 659083.523
+
+1

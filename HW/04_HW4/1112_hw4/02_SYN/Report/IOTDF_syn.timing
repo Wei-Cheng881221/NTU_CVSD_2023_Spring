@@ -1,0 +1,60 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : IOTDF
+Version: U-2022.12
+Date   : Mon May  8 11:06:56 2023
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_in_save_reg[0][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_pre_reg[10][7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_in_save_reg[0][2]/CK (DFFRX1)        0.00       1.00 r
+  iot_in_save_reg[0][2]/Q (DFFRX1)         0.49       1.49 r
+  U2096/Y (NAND2XL)                        0.12       1.61 f
+  U2098/Y (OAI21XL)                        0.20       1.81 r
+  U1598/Y (AOI21XL)                        0.09       1.90 f
+  U2075/Y (OAI21XL)                        0.22       2.12 r
+  U1384/Y (AOI21XL)                        0.14       2.26 f
+  U1383/Y (OAI21XL)                        0.27       2.53 r
+  U2271/Y (AOI21X1)                        0.18       2.70 f
+  U2076/Y (OAI21XL)                        0.28       2.98 r
+  U3243/Y (INVX1)                          0.13       3.11 f
+  U3244/Y (OAI21XL)                        0.22       3.34 r
+  U1417/Y (AOI21XL)                        0.15       3.48 f
+  U3245/Y (OAI21XL)                        0.23       3.71 r
+  U3248/Y (XNOR2X1)                        0.21       3.92 f
+  U1685/Y (NAND2XL)                        0.10       4.02 r
+  U3249/Y (OAI211XL)                       0.09       4.11 f
+  iot_out_pre_reg[10][7]/D (DFFRX1)        0.00       4.11 f
+  data arrival time                                   4.11
+
+  clock clk (rise edge)                    3.44       3.44
+  clock network delay (ideal)              1.00       4.44
+  clock uncertainty                       -0.10       4.34
+  iot_out_pre_reg[10][7]/CK (DFFRX1)       0.00       4.34 r
+  library setup time                      -0.23       4.11
+  data required time                                  4.11
+  -----------------------------------------------------------
+  data required time                                  4.11
+  data arrival time                                  -4.11
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1
